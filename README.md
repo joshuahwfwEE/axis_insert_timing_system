@@ -10,5 +10,12 @@ notice:
 4.this design is in common clk mode: which is mean that all the data flow is in a same clk 74.25, if you want to change the resolution and fps, you need to re-customize the vtc's parameter and feed the system with the precision pixel clk  
 5. after locked bit is assert, vid_in_to_axis will wait 2 continous frame to transform the native video out to axi stream, the vblank which is relative tready signal and the end of the active video is relative to tlast signal, the vblank and vsync is within the tlast signal, and tuser is relative to the end of the hblank and hsync wthin the vblank signal
 
+
+in advance   
+if you want to analysis native video stream: use nt_video_detector  
+if you want to analysis axi video stream: use axis_video_detector  
+
+
 simulation result:  
 ![alt text](https://github.com/joshuahwfwEE/axis_insert_timing_system/blob/main/sim1.png?raw=true)  
+if you run the simulation, it may take about 5.xxx ms to complete the whole behavior.
