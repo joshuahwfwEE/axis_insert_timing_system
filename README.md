@@ -18,4 +18,5 @@ if you want to analysis axi video stream: use axis_video_detector
 
 simulation result:  
 ![alt text](https://github.com/joshuahwfwEE/axis_insert_timing_system/blob/main/sim1.png?raw=true)  
-if you run the simulation, it may take about 5.xxx ms to complete the whole behavior.
+
+if you run the simulation, it may takes about 3xx.xxx ms to make axi2vid_out locked and takes 5xx.xxx ms to complete the whole behavior(native to axi_stream conversion is done).
