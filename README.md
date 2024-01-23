@@ -12,7 +12,7 @@ notice:
 
 
 in advance   
-if you want to analysis native video stream: use hsvs_video_cnt
+if you want to analysis native video stream: use hsvs_video_cnt  
 if you want to analysis axi video stream: use axis_video_detector  
 
 
