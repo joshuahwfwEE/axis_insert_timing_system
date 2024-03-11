@@ -20,3 +20,5 @@ simulation result:
 ![alt text](https://github.com/joshuahwfwEE/axis_insert_timing_system/blob/main/sim1.png?raw=true)  
 
 if you run the simulation, it may takes about 321.75 ms to make axi2vid_out locked and takes 386.100 ms to complete the whole behavior(native to axi_stream conversion is done).
+
+add the example of yuv422 axistream:  
